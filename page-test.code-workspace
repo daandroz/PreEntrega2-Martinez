@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../page-test"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "keeb"
+	}
+}
