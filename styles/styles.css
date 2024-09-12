@@ -886,10 +886,10 @@ nav ul li a:hover{
     position: relative;
 }
 
-.founders-container img{
+/* .founders-container img{
     height: 150px;
     margin-top: 40px;
-}
+} */
 
 .founder-1{
     display: flex;
@@ -897,9 +897,12 @@ nav ul li a:hover{
     justify-content: center;
     color: whitesmoke;
     position: absolute;
-    left: 32%;
-    top: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-80%, -40%);
 }
+
+    
 
 .founder-2{
     display: flex;
@@ -907,8 +910,11 @@ nav ul li a:hover{
     justify-content: center;
     color: whitesmoke;
     position: absolute;
-    left: 49%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -60%);
 }
+
 
 .founder-1 p, .founder-2 p{
     text-align: center;
@@ -977,13 +983,13 @@ nav ul li a:hover{
 @media (max-width:430px) {
 
     .founder-1{
-        left: 1%;
+     transform: translate(-80%, -40%);
 
     }
 
     .founder-2{
-        left: 29%;
-    }
+    transform: translate(-29%, -60%);
+        }
 
     .firm-description{
         width: 82%;
